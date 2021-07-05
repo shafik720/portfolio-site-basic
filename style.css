@@ -19,6 +19,7 @@ section{
 .secImage{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    
 }
 
 .half-width{
@@ -27,7 +28,7 @@ section{
 }
 .half-width img{
     width: 80%;
-    float: right;
+    
 }
 .hire-me-button{
     text-decoration: none;
@@ -37,4 +38,7 @@ section{
     border-radius: 5px;
     font-weight: 700;
     
+}
+.dream-bg{
+    background-image: url(images/dream-bg.png);
 }
