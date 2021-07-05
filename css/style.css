@@ -11,14 +11,23 @@ h1 {
     color: orange;
 }
 
-.container1{
-    width: 1200px;
+section{
+    display: flex;
+    
 }
-.container1left{
-    float: left;
-    width: 600px;
+.half-width{
+    width: 50%;
+    padding-left: 2%;
 }
-.container1right{
-    float: right;
-    width: 600;
+.half-width img{
+    width: 65%;
+}
+.hire-me-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, yellow);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    
 }
