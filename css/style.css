@@ -1,0 +1,24 @@
+body {
+    font-family: 'Bona Nova', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.orangeText {
+    color: orange;
+}
+
+.container1{
+    width: 1200px;
+}
+.container1left{
+    float: left;
+    width: 600px;
+}
+.container1right{
+    float: right;
+    width: 600;
+}
