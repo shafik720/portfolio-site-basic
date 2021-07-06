@@ -12,8 +12,9 @@ h1 {
     color: orange;
 }
 
-section{
+.first2column{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .secImage{
@@ -43,4 +44,39 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{}
+.web-developer{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.web-developer h1{
+    font-size: 40px;
+}
+.web-developer p {
+    text-align: justify;
+}
+.web-developer h3 {
+    color: orange;
+}
+.web-dev-left{
+    width: 40%;
+    margin-left:5%;
+    margin-right: 5%;
+    padding: 0px 20px;
+    margin-bottom: 150px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#leftOne{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+}
+#rightOne{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, orange);
+    border-image-slice: 1;
 }
